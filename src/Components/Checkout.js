@@ -7,8 +7,9 @@ const Checkout = () => {
     price: 29,
   };
   return (
-    <div>
-      <h2 className="font-bold text-2xl">Checkout</h2>
+    <div className="py-5">
+      <h2 className="font-bold text-2xl py-3">Checkout</h2>
+      
       <div className="  max-w-3xl mx-auto	">
         <img
           className=" "
@@ -16,6 +17,7 @@ const Checkout = () => {
           alt=""
         />
       </div>
+      <p className="text-2xl">Price : $29</p>
       <div>
      <CheckoutPaypalButton product={product}></CheckoutPaypalButton>
       </div>
